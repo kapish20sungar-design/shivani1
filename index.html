@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be My Valentine?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- Main content -->
+  <div class="container" id="questionScreen">
+    <div class="bear" id="bear">
+      <div class="bear-emoji">&#x1F9F8;</div>
+      <div class="heart-hold">&#x1F496;</div>
+    </div>
+
+    <h1 class="title" id="title">
+      <span id="greeting">Hey</span> <span id="recipientName">Sharon</span>,
+    </h1>
+    <h2 class="question" id="question">Will you be my Valentine?</h2>
+    <p class="subtext hidden" id="subtext">(This is not a request btw)</p>
+
+    <div class="buttons">
+      <button class="btn btn-yes" id="yesBtn">Yes!</button>
+      <button class="btn btn-no" id="noBtn">No</button>
+    </div>
+  </div>
+
+  <!-- Yes screen (hidden initially) -->
+  <div class="container hidden" id="yesScreen">
+    <div class="bear bear-happy">
+      <div class="bear-emoji">&#x1F9F8;</div>
+      <div class="heart-hold">&#x1F970;</div>
+    </div>
+    <h1 class="title yay-title" id="yayTitle">Yaaaay!</h1>
+    <p class="yes-message" id="yesMessage">
+      You said yes!! Okay I'm literally so happy right now. You just made my whole entire year. Happy Valentine's Day!
+    </p>
+    <p class="signed" id="signed">- Your Secret Admirer</p>
+    <div class="celebration" id="celebration"></div>
+  </div>
+
+  <!-- Confetti canvas -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>

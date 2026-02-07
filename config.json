@@ -1,0 +1,42 @@
+{
+  "recipientName": "Sharon",
+  "senderName": "Your Secret Admirer (brown)",
+
+  "greeting": "Hey",
+  "initialQuestion": "Will you be my Valentine?",
+  "realQuestion": "You WILL be my Valentine.",
+  "subtext": "(This is not a request btw)",
+
+  "yesBtnText": "Yes!",
+  "noBtnText": "No",
+
+  "yayTitle": "Yaaaay!",
+  "yesMessage": "You said yes!!! Thanks babu!! Happy Valentine's Day!",
+
+  "noButtonTexts": [
+    "No",
+    "Are you sure?",
+    "Really sure?",
+    "Think again!",
+    "Hmm wrong answer",
+    "Nope try again",
+    "The button is running away from you",
+    "You can't win this",
+    "I can do this all day",
+    "Just click Yes already",
+    "Your mouse is getting tired",
+    "Even the button doesn't want you to click it",
+    "Pretty please?",
+    "I'm not giving up",
+    "Fine... just kidding. Click Yes."
+  ],
+
+  "timing": {
+    "initialDelay": 2200,
+    "flickerDuration": 150,
+    "flickerInterval": 40,
+    "holdReal": 1000,
+    "holdSweet": 7000,
+    "fadeBackDuration": 0
+  }
+}
