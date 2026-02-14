@@ -264,7 +264,7 @@ function initYesButton() {
     if (noClickCount > 0) {
       const attemptsNote = document.createElement("p");
       attemptsNote.className = "attempts-note";
-      attemptsNote.textContent = `(You tried to say no ${noClickCount} time${noClickCount === 1 ? "" : "s"} but here we are)`;
+      attemptsNote.textContent = `(${noClickCount} time${noClickCount === 1 ? "" : "s"} No will not stop me, because giving up on you isn’t in my dictionary❤️)`;
       document.getElementById("yesMessage").after(attemptsNote);
     }
 
