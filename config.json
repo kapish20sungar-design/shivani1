@@ -1,6 +1,6 @@
 {
   "recipientName": "Shivani",
-  "senderName": "Your Secret Admirer (mitarr)",
+  "senderName": "Your Secret Admirer",
 
   "greeting": "Hey",
   "initialQuestion": "Will you be my Valentine?",
@@ -11,7 +11,7 @@
   "noBtnText": "No",
 
   "yayTitle": "Yaaaay!",
-  "yesMessage": "You said yes!!! Thanks babu!!",
+  "yesMessage": "You said yes!!! Thanks Mitarr!!",
 
   "noButtonTexts": [
     "No",
